@@ -5,7 +5,8 @@
 		var octopi = $$('.octopus');
 
 		addOptions({'luckies': luckies.length, 'octopi': octopi.length});
-
+		showDefaultLuckies(luckies);
+		
 		var animations = {};
 		var mouse_coords = {};
 
@@ -25,6 +26,14 @@
 
 		prepAnimate([luckies, octopi], mouse_coords, animations);
 	});
+	
+	function showDefaultLuckies(luckies) {
+		var lucky_count = luckies.length,
+			 half			 = Math.floor(lucky_count / 2);
+			
+		$('luckies').setValue(half);
+		showOrHide(half, luckies);	
+	}
 
 	function addOptions(obj){
 		Object.keys(obj).each(function(k) {

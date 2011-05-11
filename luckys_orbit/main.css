@@ -3,6 +3,10 @@ body {
 	color: #fff;
 }
 
+select {
+	margin: 0 20px 0 5px;
+}
+
 .lucky, .octopus {
 	border: 1px solid #333;
 	position: absolute;
