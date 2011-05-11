@@ -1,0 +1,100 @@
+body {
+	background: #000;
+	color: #fff;
+}
+
+.lucky, .octopus {
+	border: 1px solid #333;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.p1 {
+	background: url('images/p1.jpg');
+	width: 164px;
+	height: 164px;
+}
+
+.p2 {
+	background: url('images/p2.jpg');
+	width: 100px;
+	height: 100px;
+}
+
+.p3 {
+	background: url('images/p14.jpg');
+	width: 150px;
+	height: 137px;
+}
+
+.p4 {
+	background: url('images/p4.jpg');
+	width: 175px;
+	height: 188px;
+}
+
+.p5 {
+	background: url('images/p5.jpg');
+	width: 211px;
+	height: 105px;
+}
+
+.p6 {
+	background: url('images/p6.jpg');
+	width: 200px;
+	height: 131px;
+}
+
+.p7 {
+	background: url('images/p7.jpg');
+	width: 100px;
+	height: 100px;
+}
+
+.p8 {
+	background: url('images/p8.jpg');
+	width: 384px;
+	height: 290px;
+}
+
+.p9 {
+	background: url('images/p9.jpg');
+	width: 75px;
+	height: 73px;
+}
+
+.p10 {
+	background: url('images/p10.jpg');
+	width: 100px;
+	height: 161px;
+}
+
+.p11 {
+	background: url('images/p11.jpg');
+	width: 300px;
+	height: 315px;
+}
+
+.p12 {
+	background: url('images/p12.jpg');
+	width: 200px;
+	height: 150px;
+}
+
+.p13 {
+	background: url('images/p13.jpg');
+	width: 200px;
+	height: 150px;
+}
+
+.octopus {
+	background: url('images/p3.jpg');
+	width: 100px;
+	height: 100px;
+}
+
+select, input {
+	position: relative;
+	z-index: 99;
+}	

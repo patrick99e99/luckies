@@ -1,0 +1,39 @@
+body {
+	background: #000 url('hens.jpg') repeat;
+	color: #fff;
+}
+
+#container {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#box {
+	border: 20px solid teal;
+	background: #000;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+}
+
+#box img {
+	margin-top: 23px;
+}
+
+#text_container {
+	background: #000;
+	opacity: 0.6;
+	width: 240px;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	opacity: 1.0;
+}
+
+#lucky {
+	border: 2px solid #555;
+}

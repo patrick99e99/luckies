@@ -1,0 +1,145 @@
+body {
+	background: #000;
+	height: 90%;
+	color: #fff;
+	position: relative;
+}
+
+html {
+	height: 90%;
+}
+
+
+#first {
+	border-right: 1px dashed #00f;
+}
+
+.highlight{
+	color: #FF0;
+}
+
+#link_container {
+	text-align: center;
+	padding: 10px 0 25px 0;
+}
+
+.box {
+	border: 1px solid #300f7c;
+	background: #560cfe;
+	padding: 25px;
+	margin: 10px;
+	width: 25px;
+	height: 25px;
+	z-index: 0;
+}
+
+#comp_box {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	z-index: 2;
+	background: #000 url('lucky.jpg');
+	border: 1px solid #111;
+	height: 100px;
+	width: 100px;
+}
+
+#boxtop {
+	position: relative;
+}
+
+#owner {
+	z-index: 1;
+	top: 52px;
+	left: 0;
+	position: absolute;
+	letter-spacing: 5px;
+	margin-left: 15px;
+	border: none;
+}
+
+#call_lucky {
+	border: 1px solid #222;
+	background: #444;
+	padding: 5px;
+	margin: 0 0 0 50px;
+	color: #000;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+#call_lucky:hover {
+	background: #888;
+	color: #fff;
+}
+
+#call_lucky:active {
+	background: #560cfe;
+}
+
+#boxtop {
+	position: absolute;
+	top: 200px;
+	left: 180px;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	z-index: 1;
+}
+
+#boxlefttop {
+	position: absolute;	
+	top: 200px;
+	left: 150px;	
+	border-bottom: none;
+	border-right: none;
+}
+
+#boxleftbottom {
+	position: absolute;	
+	top: 250px;	
+	left: 150px;
+	border-top: none;
+	border-right: none;
+}
+
+#boxrighttop {
+	position: absolute;	
+	top: 200px;	
+	left: 200px;
+	border-bottom: none;
+	border-left: none;
+}
+
+#boxrightbottom {
+	position: absolute;	
+	top: 250px;	
+	left: 200px;
+	border-left: none;
+	border-top: none;
+}
+
+#boxbottom {
+	position: absolute;	
+	top: 250px;
+	left: 180px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.clear {
+	clear: left;
+	background: #444;
+}
+
+a {
+	color: #aa0033;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #aa00ff;
+	text-decoration: underline;
+}
